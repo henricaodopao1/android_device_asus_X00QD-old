@@ -204,6 +204,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_dpmframework
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
