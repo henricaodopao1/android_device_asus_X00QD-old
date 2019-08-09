@@ -32,6 +32,9 @@ on early-init
 
 on init
 
+    # Disable powersaving
+    write /sys/module/lpm_levels/parameters/sleep_disabled 1
+
     # Bring up cpubw governor and set permissions for bw_hwmon nodes
     write /sys/class/devfreq/soc:qcom,cpubw/governor "bw_hwmon"
     
@@ -186,6 +189,9 @@ on boot
     # Touchpanel
     chown system system /sys/bus/i2c/devices/4-0038/dclick_mode
     chmod 0664 /sys/bus/i2c/devices/4-0038/dclick_mode
+
+    # Turn on sleep modes
+    write /sys/module/lpm_levels/parameters/sleep_disabled 0
 
 #Create folder dump yuv images while debugging
     mkdir /data/vendor/camera 0770 camera camera
