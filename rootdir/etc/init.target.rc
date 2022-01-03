@@ -32,6 +32,7 @@ on early-init
 
 on init
 
+<<<<<<< HEAD
     # Bring up cpubw governor and set permissions for bw_hwmon nodes
     write /sys/class/devfreq/soc:qcom,cpubw/governor "bw_hwmon"
     
@@ -69,6 +70,9 @@ on init
     chmod 0664 /sys/devices/virtual/graphics/fb0/idle_time
     chown system graphics /sys/devices/virtual/graphics/fb0/idle_time
     write /sys/devices/virtual/graphics/fb0/idle_time 100
+
+    chown system system /dev/cpuctl/top-app/cpu.uclamp.min
+    chmod 0664 /dev/cpuctl/top-app/cpu.uclamp.min
 
     mkdir /dev/cpuset/camera-daemon
     write /dev/cpuset/camera-daemon/cpus 0-7
