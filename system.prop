@@ -25,6 +25,9 @@ persist.wm.enable_remote_keyguard_animation=0
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
+# RCS
+persist.rcs.supported=1
+
 # Huaqin project
 ro.hq.project=ZQL1650
 
