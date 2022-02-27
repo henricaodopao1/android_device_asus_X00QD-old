@@ -2751,11 +2751,8 @@ vendor/lib64/hw/vibrator.default.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
-# WiFi
-bin/iwpriv|992f4281d0d798a04277fb80112655312b045b9b
-vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
-vendor/bin/cnss_diag|9d04a18ff0b7221fa08618389571f18e7d4ead84
-vendor/bin/fstman|68971c9823929fb5c7d7ee4664f5d62508e0851c
+# WIFI - from LA.UM.9.2.r1-03500-SDMxx0.0
+vendor/bin/cnss-daemon|1c63b8f94ba601b76edb0ee2fa1d1880de8d0ea3
 
 # rootdir
 vendor/bin/diag_mdlog
