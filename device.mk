@@ -545,6 +545,9 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 DONT_DEXPREOPT_PREBUILTS := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    Nexuslauncher \
+    lawnchair \
     Settings \
     SystemUI
 
