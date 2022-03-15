@@ -84,9 +84,7 @@ persist.bt.enable.multicast=0
 persist.bt.hfp.playbackforvr=false
 persist.bt.hfp.playbackforvoip=false
 persist.vendor.bt.aac_frm_ctl.enabled=true
-ro.bluetooth.emb_wp_mode=true
-ro.bluetooth.wipower=true
-vendor.bluetooth.soc=cherokee
+persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
@@ -285,7 +283,6 @@ ro.surface_flinger.set_idle_timer_ms=9000
 vendor.gralloc.disable_ubwc=0
 vendor.display.comp_mask=0
 vendor.display.disable_scaler=0
-
 
 # Set system properties identifying the chipset
 ro.soc.manufacturer=QTI
