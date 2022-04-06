@@ -208,10 +208,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_dpmframework
 
-# Doze mode
-PRODUCT_PACKAGES += \
-    Doze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -420,8 +416,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-xdroid
+    $(LOCAL_PATH)/overlay
     
 # Configstore
 PRODUCT_PACKAGES += \

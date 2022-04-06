@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # PixelExperience Properties
 TARGET_INCLUDE_WIFI_EXT := true
@@ -37,7 +37,7 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := ZenFone 5
 PRODUCT_DEVICE := X00QD
 PRODUCT_MANUFACTURER := ASUS
-PRODUCT_NAME := aosp_X00QD
+PRODUCT_NAME := dot_X00QD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
