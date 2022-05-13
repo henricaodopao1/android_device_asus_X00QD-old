@@ -12,6 +12,12 @@ dev.pm.dyn_samplingrate=1
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# Disable Remote Keguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
+# Netflix
+ro.netflix.bsp_rev=Q660-13149-1
+
 # Huaqin project
 ro.hq.project=ZQL1650
 
