@@ -10,6 +10,7 @@ arm64.memtag.process.system_server=off
 dev.pm.dyn_samplingrate=1
 
 # Perf
+ro.vendor.qti.sys.fw.bg_apps_limit=32
 vendor.perf.gestureflingboost.enable=true
 
 # QC framework value-adds
