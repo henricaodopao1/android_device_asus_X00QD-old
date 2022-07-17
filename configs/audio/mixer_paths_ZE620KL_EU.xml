@@ -2084,6 +2084,7 @@
     <path name="handset">
         <ctl name="TFA_CHIP_SELECTOR" value="3" />
         <ctl name="DK Profile" value="receiver" />
+        <ctl name="RX1 Digital Volume" value="95" />
     </path>
 
     <path name="handset-mic">
@@ -2117,8 +2118,8 @@
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
         <ctl name="RDAC2 MUX" value="RX2" />
-        <ctl name="RX1 Digital Volume" value="73" />
-        <ctl name="RX2 Digital Volume" value="73" />
+        <ctl name="RX1 Digital Volume" value="77" />
+        <ctl name="RX2 Digital Volume" value="77" />
         <ctl name="HPHL" value="Switch" />
         <ctl name="HPHR" value="Switch" />
     </path>
